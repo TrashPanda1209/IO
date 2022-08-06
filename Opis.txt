@@ -1,0 +1,6 @@
+Program przedstawia wzorzec Dekorator, który nadaje kształtom pojazdów kolor niebieski.
+"Ksztalt" to interfejs. Klasy "Samochod" i "Motocykl" są konkretnymi klasami implementującymi
+interfejs "Ksztalt". Klasa "KsztaltDekorator" jest abstrakcyjną klasą dekoratora implementującą
+interfejs "Ksztalt". "KonkretnyDekoratorKolor" jest klasą konkretną implementującą klasę "Ksztalt
+Dekorator" - czyli ma te same metody, co konkretny komponent + dodatkowe funkcjonalności - w tym
+przypadku nadanie koloru.
